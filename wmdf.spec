@@ -55,7 +55,6 @@ EOF
 install -m 755 -d %{buildroot}%{_datadir}/applications
 cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop <<EOF
 [Desktop Entry]
-Encoding=UTF-8
 Name=WmDf
 Comment=An app to monitor disk IO and available space on partitions
 Exec=%{_bindir}/%{name} -at 99 -bl
