@@ -16,7 +16,6 @@ URL:		http://www.dockapps.com/file.php/id/175
 BuildRequires:	libx11-devel
 BuildRequires:	libxpm-devel
 BuildRequires:	libxext-devel
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 
 %description
