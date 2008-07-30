@@ -1,6 +1,6 @@
 %define name wmdf
 %define version 0.1.6
-%define release %mkrel 3
+%define release %mkrel 5
 
 Summary:	An app to monitor disk IO and available space on partitions
 Name:		%{name}
