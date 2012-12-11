@@ -91,3 +91,45 @@ EOF
 %{_mandir}/man1/*
 
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.1.6-7mdv2010.0
++ Revision: 434814
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1.6-6mdv2009.0
++ Revision: 262032
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1.6-5mdv2009.0
++ Revision: 256134
+- rebuild
+- drop old menu
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 0.1.6-3mdv2008.1
++ Revision: 129395
+- kill re-definition of %%buildroot on Pixel's request
+- kill desktop-file-validate's 'warning: key "Encoding" in group "Desktop Entry" is deprecated'
+
+
+* Tue Feb 06 2007 Gustavo De Nardin <gustavodn@mandriva.com> 0.1.6-3mdv2007.0
++ Revision: 116916
+- fixed .desktop file Comment
+- fixed and trimmed dependencies
+- spec cleanup
+- fixed old menu section
+- xdg menu migration for great compliance
+
+* Sat Jul 23 2005 Nicolas Lécureuil <neoclust@mandriva.org> 0.1.6-1mdk
+- New release 0.1.6
+
+* Fri Jun 03 2005 Nicolas Lécureuil <neoclust@mandriva.org> 0.1.5-3mdk
+- Rebuild
+
