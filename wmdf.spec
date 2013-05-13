@@ -1,6 +1,6 @@
 %define name wmdf
 %define version 0.1.6
-%define release %mkrel 7
+%define release  8
 
 Summary:	An app to monitor disk IO and available space on partitions
 Name:		%{name}
@@ -16,7 +16,6 @@ URL:		http://www.dockapps.com/file.php/id/175
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xpm)
 BuildRequires:	pkgconfig(xext)
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 
 %description
