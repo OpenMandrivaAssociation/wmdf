@@ -12,7 +12,7 @@ Source0:	%{name}-%{version}.tar.bz2
 Source10:	%{name}-16x16.png
 Source11:	%{name}-32x32.png
 Source12:	%{name}-48x48.png
-URL:		http://www.dockapps.com/file.php/id/175
+URL:		https://www.dockapps.com/file.php/id/175
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xpm)
 BuildRequires:	pkgconfig(xext)
